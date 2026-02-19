@@ -5,7 +5,7 @@ Après avoir cloné le projet, créez un dossier "images" et mettez-y vos images
 
 Chaque image doit avoir comme nom : "logo*.png", où * est le numéro de votre image
 
-IMPORTANT: mettez bien le nombre d'image "NBIMAGES" dans le content.js, il est de base à 6
+IMPORTANT: mettez bien le nombre d'image "NBIMAGES" dans le [content.js](content.js), il est de base à 6
 
 
 # Pour activer l'extension
