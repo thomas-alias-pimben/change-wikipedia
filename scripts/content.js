@@ -22,7 +22,7 @@ function renderReadingTime() {
 function randomWikipeTAn() {
   random = Math.floor(Math.random() * 6)+1
 
-  return chrome.runtime.getURL('/images/wikipe-tan'+random+'.png');
+  return chrome.runtime.getURL('/images/logo'+random+'.png');
 }
 
 
