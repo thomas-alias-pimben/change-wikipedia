@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "wikipe-chan",
+  "version": "1.0",
+  "description": "change wikipedia logo to wikipechan logo",
+
+  "action": {
+    "default_popup": "hello.html"
+  },
+  
+ "web_accessible_resources": [
+    {
+      "resources": ["/images/wikipe-tan1.png","/images/wikipe-tan2.png","/images/wikipe-tan3.png","/images/wikipe-tan4.png","/images/wikipe-tan5.png","/images/wikipe-tan6.png"],
+      "matches": ["https://fr.wikipedia.org/*"]
+    }],
+
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://fr.wikipedia.org/*"
+      ]
+    }
+  ]
+}
