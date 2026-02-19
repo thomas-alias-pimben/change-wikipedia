@@ -1,9 +1,9 @@
 
 # dossier image
 
-après avoir cloner le projet, creez un dossier "images" et mettez y vos images
+Après avoir cloné le projet, créez un dossier "images" et mettez-y vos images.
 
-chaque image doit avoir comme nom : "logo*.png", où * est le numéro de votre image
+Chaque image doit avoir comme nom : "logo*.png", où * est le numéro de votre image
 
 
 # Pour activer l'extension
