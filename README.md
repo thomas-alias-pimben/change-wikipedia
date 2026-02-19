@@ -1,0 +1,23 @@
+
+# dossier image
+
+après avoir cloner le projet, creez un dossier "images" et mettez y vos images
+
+chaque image doit avoir comme nom : "logo*.png", où * est le numéro de votre image
+
+
+# Pour activer l'extension
+
+allez sur : "chrome://extensions" dans votre navigateur chrome
+
+Activez le mode développeur, clique sur "Charger le contenu décompressé" ou "load unpacked" et sélectionnez votre **dossier**
+
+![image info](https://developer.chrome.com/static/docs/extensions/get-started/tutorial/hello-world/image/extensions-page-e0d64d89a6acf_856.png)
+
+
+
+
+
+
+
+
