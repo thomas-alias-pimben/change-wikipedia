@@ -1,4 +1,4 @@
-NBIMAGES=6
+NBIMAGES=1
 
 function renderReadingTime() {
   
