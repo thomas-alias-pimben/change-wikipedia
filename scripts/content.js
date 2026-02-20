@@ -29,8 +29,6 @@ function randomWikipeTAn() {
 
 
 
-repertoire=chrome.runtime.getURL('/images');
-chemin_fichiers = opendir(repertoire);
 
 
 
