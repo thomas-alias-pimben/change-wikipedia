@@ -11,15 +11,21 @@ function renderReadingTime() {
   
   image.style.height = '6%';
   image.style.width = '6%';
-  image. className = "";
+  image.style.flexGrow = '1';
+
   
-  lol=document.getElementById("accueil_2017_bandeau")
 
 
-  lol.style.backgroundImage= "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('"+chrome.runtime.getURL('/images/logo1.png')+"')"
 
-  lol.style.backgroundPosition= "0% -3%";
-  lol.style.backgroundSize= "250px 450px";
+
+  
+  bandeau=document.getElementById("accueil_2017_bandeau")
+
+
+  bandeau.style.backgroundImage= "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('"+chrome.runtime.getURL('/images/logo1.png')+"')"
+
+  bandeau.style.backgroundPosition= "0% -3%";
+  bandeau.style.backgroundSize= "250px 450px";
   
 }
 
