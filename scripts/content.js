@@ -2,14 +2,16 @@ NBIMAGES=6
 
 function renderReadingTime() {
   
-
+  
   const image = document.querySelector("img[class='mw-logo-icon']");
+  
 
 
   image.src= randomWikipeTAn()
   
-  image.style.height = '25%';
-  image.style.width = '25%';
+  image.style.height = '6%';
+  image.style.width = '6%';
+  image. className = "";
   
   lol=document.getElementById("accueil_2017_bandeau")
 
